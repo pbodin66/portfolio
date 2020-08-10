@@ -12,47 +12,84 @@ Most recent revision:
   </head>
 
   <body>
+    <main> <!-- The main element contains all blocks on the page -->
+      <header> <!-- The header element contains only the main title at this point. -->
+        <h1>Portfolio for Pat Bodin</h1>
+      </header>
+      <hr/>
 
-    <h1>Portfolio for Pat Bodin</h1>
+      <nav> <!-- The nav element will include navigation buttons or links -->
+          <hr />
+          <p><a href="projects.html">Projects</a></p>
+          <p><a href="contact.html">Contact</a></p>
+          <p><a href="testimonials.html">Testimonials</a></p>
+          <p><a href="index.html">Home</a></p>
+          <hr />
+      </nav>
 
-    <hr/>
-
-    <nav>
-    <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
-      <p>Links to our pages will go here</p>
-    </nav>
-
-    <hr/>
-
-    <section>
-      <article>
-        <article id="about">
-        <h2><em>About Me</em></h2>
-          <p>Sed nisi est, aliquam non gravida et, euismod id ex. Praesent molestie metus justo, non tristique nisl blandit id. Proin porta nisl eros, vitae laoreet eros vestibulum in. Integer faucibus malesuada purus quis consectetur</p>
-          <p>Vivamus nec sollicitudin diam, at posuere augue. Nunc pulvinar imperdiet massa ut tincidunt. Pellentesque ac tincidunt metus, nec molestie magna.</p>
-        </article>
-
-        <article>
-          <article id="experience">
-          <h2><em>Past Experiences</em></h2>
-            <p>Pellentesque venenatis ligula vel sem porttitor vehicula. Fusce lectus nibh, sollicitudin ac turpis id, aliquet sodales tellus. Vivamus scelerisque varius augue, a consequat dui efficitur sodales. Maecenas sed leo varius, fringilla magna in, semper est. Aliquam non elit quis nisi ornare volutpat sed id felis.</p>
-            <p>Aliquam semper urna in neque imperdiet, vel interdum sapien luctus. Morbi neque purus, volutpat eu odio at, varius malesuada purus. Sed nec auctor sem.</p>
-        </article>
-
-        <article>
-          <article id="hobbies">
-          <h2><em>Hobbies</em></h2>
-            <p>Proin posuere feugiat odio, in euismod enim scelerisque sit amet. Sed non volutpat nunc. Suspendisse potenti. Aenean ut diam scelerisque justo tempus fermentum. Quisque porta leo non laoreet ullamcorper. Sed dapibus urna sit amet arcu commodo gravida. Morbi dictum libero dui.</p>
-            <p>Fusce dignissim felis ultricies purus lobortis, non tristique urna ultrices. Curabitur ligula metus, mollis volutpat imperdiet eget, euismod ut purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus posuere sapien, id elementum ex mollis non</p>
+      <section> <!-- The section element contains the three chunks we are using to sell ourselves in this page. -->
+          <article id="about">
+            <h2><em>About Me</em></h2>
+            <a href="https://www.intheboat.com/about" target="_blank">
+                <img border="0" alt="Portrait of Pat Bodin" src="images/Current_Bodin.jpg" width="200">
+            </a>
+              <p>Sed nisi est, aliquam non gravida et, euismod id ex. <strong>Praesent molestie metus justo</strong>, non tristique nisl blandit id. Proin porta nisl eros, vitae laoreet eros vestibulum in. Integer faucibus malesuada purus quis consectetur</p>
+              <p>Vivamus nec sollicitudin diam, <strong>at posuere augue</strong>. Nunc pulvinar imperdiet massa ut tincidunt. Pellentesque ac tincidunt metus, nec molestie magna.</p>
           </article>
 
-    </section>
+          <article id="experience">
+            <h2><em>Past Experiences</em></h2>
+            <a href="https://www.intheboat.com/blog" target="_blank">
+                <img border="0" alt="Experiences of Pat Bodin" src="images/Data_Center.jpg" width="200">
+            </a>
+            <table>
+              <caption>Employment History</caption>
+              <tr><th>Yrs Employed</th><th>Employer</th><th>Title</th></tr>
+              <tr><td>2019-2020</td><td>ROVE</td><td>CTO</td></tr>
+              <tr><td>2013-2019</td><td>ITB</td><td>Founder, CEO</td></tr>
+              <tr><td>2003-2013</td><td>Firefly</td><td>Founder, CEO</td></tr>
+              <tr><td>1990-2003</td><td>Cisco</td><td>DSE</td></tr>
+            </table>
+        </article>
 
+        <article id="hobbies">
+            <h2><em>Hobbies</em></h2>
+            <a href="https://www.intheboat.com/book" target="_blank">
+                <img border="0" alt="Hobbies of Pat Bodin" src="images/illusion.jpg" width="200">
+            </a>
+            <ul>
+              <li>Authors</li>
+              <ol>
+                <li>Stephan King</li>
+                <li>Dan Brown</li>
+                <li>Robin Hobb</li>
+              </ol>
+              <li>Video Games</li>
+              <ol>
+                <li>Portal</li>
+                <li>World of Warcraft</li>
+                <li>Skyrim</li>
+              </ol>
+              <li>Sports</li>
+              <ul>
+                <li>Soccer</li>
+                <li>Rugby</li>
+                <li>Basketball</li>
+              </ul>
+              <li>Outdoor Activities</li>
+              <ul>
+                <li>Building sandcastles</li>
+                <li>Pokemon Hunting</li>
+                <li>Skinng</li>
+              </ul>
+            </ul>
+        </article>
+      </section>
+
+      <footer> <!-- The footer is a block at the bottom of the page. -->
+        <hr/>
+        <p>&copy; 2020 Pat Bodin. All rights reserved.</p>
+      </footer>
+    </main>
   </body>
-
-  <footer>
-    <hr/>
-    <p>&copy; 2020 Pat Bodin. All rights reserved.</p>
-  </footer>
-
 </html>

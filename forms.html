@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+Name: Pat Bodin
+Date Created: August 5, 2020
+Most recent revision:
+-->
+<html lang="en">
+    <head>
+        <title>Forms in HTML</title>
+    </head>
+    <body>
+        <h1>Form Example</h1>
+        <form action="fakePage.html" method="POST">
+            Text Input: <input type="text" name="myTextInput" required /><br />
+            Radio Buttons:<br />
+            <input type="radio" name="answer" value="YES" checked />Yes<br />
+            <input type="radio" name="answer" value="NO" />No<br />
+            <input type="radio" name="answer" value="MAYBE" />Maybe<br />
+            Password Input: <input type="password" name="userPassword" required /><br />
+            <input type="checkbox" name="myChoices" value="Soup" checked/>Soup<br />
+            <input type="checkbox" name="myChoices" value="Salad" checked/>Salad<br />
+            <input type="checkbox" name="myChoices" value="Fries" checked/>Fries<br />
+            <input type="checkbox" name="myChoices" value="Dessert" checked/>Dessert<br />
+            <select name="phones">
+              <option value="iPhone6">Apple</option>
+              <option value="GalaxyS6">Samsung</option>
+              <option value="Nexus5">Google</option>
+            </select><br />
+            <textarea name="briefDescription" rows="4" cols="50"></textarea><br />
+            <input type="submit"/><input type="reset" /><br />
+        </form>
+    </body>
+</html>
