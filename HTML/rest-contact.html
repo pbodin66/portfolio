@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+Name: Pat Bodin
+Date Created: August 10, 2020
+Most recent revision:
+-->
+<html lang="en">
+<html>
+  <head><title>"GoodFood: Contact"</title><head>
+    <body>
+      <main>
+        <header style="text-align:center;font-size:500%;">Good Food on the Go</header>
+
+        <hr />
+
+        <nav style="text-align:left;">
+        <a href="rest-home.html">Home</a>
+        <a href="rest-menu.html">Menu</a>
+        <a href="rest-contact.html">Contact Us</a>
+        </nav>
+
+        <hr />
+
+        <form style="text-align:center;font-family:verdana;" action="fakePage.html" method="POST">
+          <!-- Three input text boxes for form -->
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email"><br><br>
+          <label for="phone">Phone:</label>
+          <input type="text" id="phone" name="phone"><br><br>
+          <!-- Three choices for dropdown list -->
+          <label for="inquiry">Reason for Inquiry:</label>
+          <select name="inquiry">
+            <option value="catering">Catering</option>
+            <option value="priv-party">Private Party</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+          </select><br /><br />
+          <!-- Text Area for Additional Information -->
+          <label for="info">Additional Information:</label>
+          <textarea style="vertical-align:top;" name="info" rows="10" cols="35"></textarea><br /><br />
+          <!-- Radio buttons for have you been to -->
+          <label for="answer">Have you been to the restaurant?</label>
+          <input type="radio" name="answer" value="NO" checked />No
+          <input type="radio" name="answer" value="YES" />Yes<br /><br />
+          <!-- Checkboxes for best day to contact -->
+          <label for="contact-you">Best days to contact you:</label>
+          <input type="checkbox" name="contact-you" value="monday"/>M
+          <input type="checkbox" name="contact-you" value="tuesday"/>T
+          <input type="checkbox" name="contact-you" value="wednesday"/>W
+          <input type="checkbox" name="contact-you" value="thursday"/>Th
+          <input type="checkbox" name="contact-you" value="friday"/>F<br /><br />
+          <!-- Submit inputs into fakePage.html -->
+          <input type="submit" value="Submit">
+        </form>
+        <hr />
+        <footer style="font-family:verdana;text-align:center;font-size:110%;">5100 Main Street, Sea City, Florida, 33333</footer>
+        <footer style="font-family:verdana;text-align:center;font-size:110%;">242-333-5555</footer>
+        <hr />
+    <main>
+  </body>
+</html>
