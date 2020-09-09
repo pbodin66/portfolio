@@ -1,0 +1,44 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px 0px 5px 10px;
+}
+table {
+  width: 100%;
+}
+th {
+  height: 25px;
+}
+tfoot td {
+  text-align: center;
+}
+tbody tr:nth-child(even) {
+  background-color: lemonchiffon;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lawngreen;
+}
+a {
+  font-family: monospace;
+  text-decoration: underline;
+  font-weight: none;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #00c;
+  font-family: cursive;
+}
+
+a:active {
+  font-weight: bold;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--
+Name: Pat Bodin
+Date Created: August 3, 2020
+Most recent revision:
+-->
+<html lang="en">
+<html>
+
+  <head>
+    <title>Pat Bodin's Portfolio</title>
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <style>
+      article {
+        margin-bottom: 16px;
+      }
+      article img {
+        float:left;
+      }
+      .right-content {
+        float:left;
+      }
+      caption {
+       font-weight: bold;
+       font-size: 1.2em;
+       margin-bottom: 8px;
+      }
+      table, th, td {
+        border: 1px solid #0d1f2d;
+        border-collapse: collapse;
+        padding: 5px 10px;
+      }
+      table {
+        width: 90%;
+        margin: auto;
+      }
+      tr {
+        height: 30px;
+      }
+      th {
+        background-color: #546a7b;
+        color: #f2eded;
+      }
+      tr:nth-child(odd) {
+        background-color: #e4c3ad;
+      }
+      div {
+        margin-left: 12px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main> <!-- The main element contains all blocks on the page -->
+      <header> <!-- The header element contains only the main title at this point. -->
+        <h1>Portfolio for Pat Bodin</h1>
+      </header>
+
+
+      <nav class="border"> <!-- The nav element will include navigation buttons or links -->
+          <p><a href="projects.html">Projects</a></p>
+          <p><a href="contact.html">Contact</a></p>
+          <p><a href="testimonials.html">Testimonials</a></p>
+          <p><a href="index.html">Home</a></p>
+          <div class="clear-float"></div>
+      </nav>
+
+      <section> <!-- The section element contains the three chunks we are using to sell ourselves in this page. -->
+          <article class="border" id="about">
+            <h2><em>About Me</em></h2>
+            <a href="https://www.intheboat.com/about" target="_blank">
+                <img border="0" alt="Portrait of Pat Bodin" src="images/Current_Bodin.jpg" width="200">
+            </a>
+              <p>Sed nisi est, aliquam non gravida et, euismod id ex. <strong>Praesent molestie metus justo</strong>, non tristique nisl blandit id. Proin porta nisl eros, vitae laoreet eros vestibulum in. Integer faucibus malesuada purus quis consectetur</p>
+              <p>Vivamus nec sollicitudin diam, <strong>at posuere augue</strong>. Nunc pulvinar imperdiet massa ut tincidunt. Pellentesque ac tincidunt metus, nec molestie magna.</p>
+            <div class="clear-float"></div>
+          </article>
+
+          <article id="experience">
+            <h2><em>Past Experiences</em></h2>
+            <a href="https://www.intheboat.com/blog" target="_blank">
+                <img border="0" alt="Experiences of Pat Bodin" src="images/Data_Center.jpg" width="200">
+            </a>
+            <div class="right-content">
+              <table>
+                <caption>Employment History</caption>
+                <thead><tr><th>Yrs Employed</th><th>Employer</th><th>Title</th></tr></thead>
+                <tbody>
+                  <tr><td>2019-2020</td><td>ROVE</td><td>CTO</td></tr>
+                  <tr><td>2013-2019</td><td>ITB</td><td>Founder, CEO</td></tr>
+                  <tr><td>2003-2013</td><td>Firefly</td><td>Founder, CEO</td></tr>
+                  <tr><td>1990-2003</td><td>Cisco</td><td>DSE</td></tr>
+              </tbody>
+              </table>
+            </div>
+            <div class="clear-float"></div>
+        </article>
+
+        <article id="hobbies">
+            <h2><em>Hobbies</em></h2>
+            <a href="https://www.intheboat.com/book" target="_blank">
+                <img border="1" alt="Hobbies of Pat Bodin" src="images/illusion.jpg" width="200">
+            </a>
+          <div class="right-content">
+            <ul>
+              <li>Authors</li>
+              <ol>
+                <li>Stephan King</li>
+                <li>Dan Brown</li>
+                <li>Robin Hobb</li>
+              </ol>
+              <li>Video Games</li>
+              <ol>
+                <li>Portal</li>
+                <li>World of Warcraft</li>
+                <li>Skyrim</li>
+              </ol>
+              <li>Sports</li>
+              <ul>
+                <li>Soccer</li>
+                <li>Rugby</li>
+                <li>Basketball</li>
+              </ul>
+              <li>Outdoor Activities</li>
+              <ul>
+                <li>Building sandcastles</li>
+                <li>Pokemon Hunting</li>
+                <li>Skinng</li>
+              </ul>
+            </ul>
+          </div>
+          <div class="clear-float"></div>
+        </article>
+      </section>
+
+      <footer> <!-- The footer is a block at the bottom of the page. -->
+        <p>&copy; 2020 Pat Bodin. All rights reserved.</p>
+      </footer>
+    </main>
+  </body>
+</html>
